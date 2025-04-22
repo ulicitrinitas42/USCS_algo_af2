@@ -26,7 +26,7 @@ int main()
         i++;
     }
 
-    media = soma / tam;
+    media = soma / (double) tam;
 
     printf("A media dos numeros eh %.3lf\n", media);
 
