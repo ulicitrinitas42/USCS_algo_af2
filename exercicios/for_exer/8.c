@@ -11,8 +11,6 @@ int main()
     for(int i = 1; i <= num; i++)
     {
         fat *= i;
-
-        printf("%d, %d\n", i, fat);
     }
 
     printf("O fatorial de %d eh %d\n", num, fat);
