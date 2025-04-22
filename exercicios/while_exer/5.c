@@ -1,3 +1,4 @@
+#include <math.h>
 #include <stdio.h>
 
 #define tam 5
@@ -7,6 +8,7 @@ int main()
     int nums[tam];
     int i = 0;
     int soma = 0;
+    double media;
 
     puts("Digite cinco números (1 por <enter>): ");
 
@@ -24,7 +26,7 @@ int main()
         i++;
     }
 
-    double media = soma / tam;
+    media = soma / tam;
 
     printf("A media dos numeros eh %.3lf\n", media);
 
