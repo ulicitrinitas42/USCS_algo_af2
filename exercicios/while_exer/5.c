@@ -20,8 +20,13 @@ int main()
 
     while(i < tam)
     {
-        
+        soma += nums[i];
+        i++;
     }
+
+    double media = soma / tam;
+
+    printf("A media dos numeros eh %.3lf\n", media);
 
 }
 
