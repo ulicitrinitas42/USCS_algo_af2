@@ -12,6 +12,13 @@ int main()
             continue;
         }
 
+        // deixa mais fácil de ler no console
+
+        if(i % 10 == 0)
+        {
+            puts("");   
+        }
+
         printf("%d ", i);
     }
 
