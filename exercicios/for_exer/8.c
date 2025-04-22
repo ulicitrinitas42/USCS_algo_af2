@@ -8,7 +8,12 @@ int main()
     printf("escreva o numero que quer o fatorial: ");
     scanf("%d", &num);
 
-    
+    for(int i = 1; i <= num; i++)
+    {
+        fat *= i;
+
+        printf("%d, %d\n", i, fat);
+    }
 
     printf("O fatorial de %d eh %d\n", num, fat);
 
