@@ -5,7 +5,7 @@
 int main()
 {
 
-    int num = 2;
+    int num = 3;
     int soma = 0;
 
     for(int i = 0; i <= num; i++)
@@ -15,7 +15,7 @@ int main()
 
         if(i == num)
         {
-            printf("%d^%d ", num, i);
+            printf("%d^%d", num, i);
         }
         else
         {
@@ -24,7 +24,7 @@ int main()
         
     }
 
-    puts("");
+    printf(" == %d\n", soma);
 
     return 0;
     
