@@ -7,10 +7,7 @@ int main()
     int proximo = 0;
     int antecessores[2] = {0, 1};
 
-    printf("Sequêcia de Fibboracci até o termo %d\n:", n);
-
-    printf("%d ", antecessores[0]);
-    printf("%d ", antecessores[1]);
+    printf("Sequêcia de Fibboracci até o termo %d:\n", n);
 
     do
     {
@@ -24,6 +21,8 @@ int main()
         n--;
         
     } while(n > 0);
+
+    puts("");
     
 
     return 0;
