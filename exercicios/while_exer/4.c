@@ -10,6 +10,14 @@ int main()
     int n = 0;
     int i = 0;
 
+    // gera um número aleatório de 1 a 10
+
+    srand(time(NULL));
+
+    n = rand() % 10;
+
+
+    // loop pra adivinhar
     puts("======================= Tente adivinhar o número =======================");
 
     printf("tentativa 1: ");
