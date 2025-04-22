@@ -10,14 +10,15 @@ int main()
     int n = 0;
     int i = 0;
 
-    // gera um número aleatório de 1 a 10
+    // gera um número aleatório de 1 a 100
 
     srand(time(NULL));
 
-    n = rand() % 10;
+    n = rand() % 100;
 
 
     // loop pra adivinhar
+
     puts("======================= Tente adivinhar o número =======================");
 
     printf("tentativa 1: ");
@@ -27,9 +28,16 @@ int main()
 
     while(n != num)
     {
-
-        printf("tentativa %d: ", i+1);
-        scanf("%d", &num);
+        if(i > 10)
+        {
+            printf("tentativa %d (dica: %d): ", i+1, n);
+            scanf("%d", &num);
+        }
+        else
+        {
+            printf("tentativa %d: ", i+1);
+            scanf("%d", &num);
+        }
 
         i++;
     }
