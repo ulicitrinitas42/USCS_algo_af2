@@ -3,9 +3,13 @@
 int main()
 {
 
-    int n = 12;
+    int n = 0;
     int proximo = 0;
     int antecessores[2] = {0, 1};
+
+    puts("Escreva quantos termos a sequencia deve ter:");
+    scanf("%d", &n);
+
 
     printf("Sequêcia de Fibboracci até o termo %d:\n", n);
 
