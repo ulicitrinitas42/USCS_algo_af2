@@ -3,12 +3,15 @@
 int main()
 {
 
-    int num = 30;
+    int num = 0;
     int soma = 0;
+
+    printf("Escreva quantos numeros quer na sequencia: ");
+    scanf("%d", &num);
 
     printf("A soma da sequencia: ");
 
-    for(int i = 0; i <= num; i++)
+    for(int i = 1; i <= num; i++)
     {
         if(i == num)
         {
