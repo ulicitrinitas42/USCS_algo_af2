@@ -17,7 +17,7 @@ int main()
 
     i++;
 
-    while(n == num)
+    while(n != num)
     {
 
         printf("tentativa %d: ", i+1);
